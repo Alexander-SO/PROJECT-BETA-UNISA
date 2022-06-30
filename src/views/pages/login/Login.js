@@ -1,4 +1,5 @@
 import React from 'react'
+import UnaImg from 'src/assets/images/unisa.png'
 import { Link } from 'react-router-dom'
 import {
   CButton,
@@ -27,7 +28,8 @@ const Login = () => {
                 <CCardBody>
                   <CForm>
                     <h1>Login</h1>
-                    <p className="text-medium-emphasis">Sign In to your account</p>
+                    <img className="d-block w-100" src={UnaImg}/>
+                    <p className="text-medium-emphasis">Iniciar sesión en su cuenta</p>
                     <CInputGroup className="mb-3">
                       <CInputGroupText>
                         <CIcon icon={cilUser} />
