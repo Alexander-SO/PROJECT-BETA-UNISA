@@ -27,7 +27,7 @@ const Login = () => {
               <CCard className="p-4">
                 <CCardBody>
                   <CForm>
-                    <h1>Login1</h1>
+                    <h1>Inicio de Sesión</h1>
                     <img src={UnaImg} />
                     <p className="text-medium-emphasis">Iniciar sesión en su cuenta</p>
                     <CInputGroup className="mb-3">
@@ -54,7 +54,7 @@ const Login = () => {
                       </CCol>
                       <CCol xs={6} className="text-right">
                         <CButton color="link" className="px-0">
-                          Forgot password?
+                          Olvidó su contraseña?
                         </CButton>
                       </CCol>
                     </CRow>
@@ -64,11 +64,11 @@ const Login = () => {
               <CCard className="text-white bg-secondary py-5" style={{ width: '44%' }}>
                 <CCardBody className="text-center">
                   <div>
-                    <h2>Sign up</h2>
+                    <h2>Unirse</h2>
                     <p>hola mundo</p>
                     <Link to="/register">
                       <CButton color="primary" className="mt-3" active tabIndex={-1}>
-                        Register Now!
+                        Registrarse!
                       </CButton>
                     </Link>
                   </div>
