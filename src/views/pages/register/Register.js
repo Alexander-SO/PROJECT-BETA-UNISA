@@ -1,5 +1,5 @@
 import React from 'react'
-import UnaImg from 'src/assets/images/unisa.png'
+import batman from '../../../assets/images/unisa.png'
 import {
   CButton,
   CCard,
@@ -25,7 +25,7 @@ const Register = () => {
               <CCardBody className="p-4">
                 <CForm>
                   <h1>Register</h1>
-                  <img className="d-block w-95" src={UnaImg}/>
+                  <img className="d-block w-95" src={batman} />
                   <p className="text-medium-emphasis">Create your account</p>
                   <CInputGroup className="mb-3">
                     <CInputGroupText>
