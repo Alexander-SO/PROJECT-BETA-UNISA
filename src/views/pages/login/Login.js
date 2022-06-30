@@ -49,7 +49,7 @@ const Login = () => {
                     <CRow>
                       <CCol xs={6}>
                         <CButton color="primary" className="px-4">
-                          Login
+                          Ingresar
                         </CButton>
                       </CCol>
                       <CCol xs={6} className="text-right">
