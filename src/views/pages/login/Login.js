@@ -27,8 +27,8 @@ const Login = () => {
               <CCard className="p-4">
                 <CCardBody>
                   <CForm>
-                    <h1>Login</h1>
-                    <img className="d-block w-100" src={UnaImg}/>
+                    <h1>Login1</h1>
+                    <img src={UnaImg} />
                     <p className="text-medium-emphasis">Iniciar sesión en su cuenta</p>
                     <CInputGroup className="mb-3">
                       <CInputGroupText>
